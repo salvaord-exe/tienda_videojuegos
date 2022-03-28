@@ -35,14 +35,7 @@ include("../Templates/header.php");
                 <a href="./ShowFabricante.php?action=show" class="btn btn-success">Crear Fabricante +</a>
             </div>
             <div class="card-body">
-                <form action="?action=search" method="post">
-                    <div class="form-group col-sm-4 mb-2 d-flex">
-                        <input type="text" class="form-control " id="param" name="param">
-                        <input type="submit" class="ms-2 btn btn-primary" value="Buscar">
-                        <a href="?action=list" class="ms-2 btn btn-secondary">Todos</a>
-                    </div>
-
-                </form>
+               
 
                 <table class="table table-bordered">
                     <thead>

@@ -88,7 +88,7 @@ class Producto
             ;";
         $this->get("bd_connection")->consultaRetorno($query);
         $result = $this->get("bd_connection")->getLastInsertId();
-
+                
         return $result;
     }
 
